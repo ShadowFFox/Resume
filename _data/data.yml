@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Felipe Martins do Nascimento
+  tagline: System Administrator | DevOps Engineer | Cloud Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: fefisfefe@gmail.com
+  phone: +55 11 9 9540 0371
+  timezone: America/Sao_Paulo # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  website: https://wild.dev.br/ # Include the full website URL, including "http://" or "https://".
+  linkedin: felipe-mnascimento
+  #xing: alandoe
+  github: ShadowFFox
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  #twitter: '@jekyllrb'
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  #mastodon: # Please include your full Mastodon link here.
+  #hackerrank: # Please provide your HackerRank username.
+  #leetcode: # Please provide your LeetCode username.
+  #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Linguas
+    info:
+    - idiom: Português
+      level: Nativa
+
+    - idiom: Inglês
+      level: Intermediário
+
+#  interests:
+#    title: Interests
+#    info:
+#    - item: Climbing
+#      link:
+
+career-profile:
+  title: Resumo
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
+
+education:
+  title: Educação
+  info:
+  - degree: Ciencia da computação
+    university: Universidade Paulista - UNIP
+    time: 2018 - 2021
+    #details: |
+    #  Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #  sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #  ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #  pretium quis, sem.
+    #    - Bullet point
+    #    - Bullet point
+  - degree: Eletricista de Manutenção Eletroeletronica
+    university: SENAI Almirante Tamandare
+    time: 2016 - 2017
+
+experiences:
+  title: Experiences
+  info:
+  - role: Analista de Infraestrutura
+    time: 2023 - Presente
+    company: Tecnocomp Tecnologia e Serviços LTDA
+    details: |
+      Atuava na implementação e sustentação de soluções em Cloud, com
+      infraestrutura como código (Terraform), containers (Docker) e
+      ambientes virtualizados. Desenvolvendo também a infraestrutura de
+      monitoramento da empresa e de seus clientes.
+  - role: Coordenador de Network Operation Center
+    time: 2022 - 2023
+    company: Tecnocomp Tecnologia e Serviços LTDA
+    details: |
+      Coordenava a equipe de NOC e gerenciava os sistemas de monitoramento
+  - role: Analista de Network Operation Center
+    time: 2021 - 2022
+    company: Tecnocomp Tecnologia e Serviços LTDA
+    details: |
+      Atuava no monitoramento de servidores, aplicações e infraestrutura 
+      interna e de clientes, atuando no gerenciamento de chamados internos e de terceiros
+  - role: Analista de Suporte Técnico
+    time: 2018 - 2020
+    company: Tecnocomp Tecnologia e Serviços LTDA
+    details: |
+      Prestava suporte a colaboradores de um ambiente hospitalar
+      com sistemas virtualizados em VDIs e ERP.
+
+certifications:
+  title: Certifications
+  list:
+  - name: Microsoft AZ-900
+    start: 2024
+    end: 2024
+    organization: Alura
+    credentialid: 9376c3ac-08c6-4930-962e-58f75377d0dc
+    credentialurl: https://cursos.alura.com.br/certificate/9376c3ac-08c6-4930-962e-58f75377d0dc?lang
+    credentialname: Alura
+#    details: |
+
+  - name: Gestão de Infraestrutura de TI
+    start: 2022
+    end: 2022
+    organization: FIAP
+    credentialid: 2459cbe7e347c38669db8a79d8cbd115
+    credentialurl: https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/61745/2459cbe7e347c38669db8a79d8cbd115/certificado.png
+    credentialname: FIAP
+#    details: |
+
+
+#projects:
+#  title: Projetos
+#  intro: >
+#    Um 
+#  assignments:
+#  - title: Velocity
+#    link: "#hook"
+#    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+#oss:
+#  title: OSS Contributions
+#  intro: >
+#    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#  contributions:
+#  - title: Tempo
+#    link: "#"
+#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#  - title: Atom
+#    link: "#"
+#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#  - title: Delta
+#    link: "#"
+#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  title: Habilidades
+
+  toolset:
+  - name: Ambiente virtual (VMware & Proxmox)
+    level: 98%
+
+  - name: Sistemas Operacionais (Linux & Windows
+    level: 98%
+
+  - name: Cloud Infrastructure
+    level: 95%
+
+  - name: Infrastructure as a Code (Terraform)
+    level: 85%
+
+  - name: Docker
+    level: 85%
+
+  - name: Sketch & Photoshop
+    level: 60%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
