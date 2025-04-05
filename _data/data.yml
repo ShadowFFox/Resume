@@ -52,12 +52,12 @@ sidebar:
 career-profile:
   title: Resumo
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Administrador de Sistemas, DevOps e Nuvem com sólida experiência
+    em infraestrutura como código (Terraform), virtualização (VMware e Proxmox)
+    e containers (Docker). Atuou na implementação e sustentação de soluções de TI,
+    coordenação de equipes de Network Operation Center e monitoramento de 
+    servidores e aplicações. Profissional versátil, dedicado e comprometido 
+    com a entrega de soluções inovadoras e eficientes.
 
 education:
   title: Educação
@@ -78,7 +78,7 @@ education:
     time: 2016 - 2017
 
 experiences:
-  title: Experiences
+  title: Experiencias
   info:
   - role: Analista de Infraestrutura
     time: 2023 - Presente
@@ -107,14 +107,14 @@ experiences:
       com sistemas virtualizados em VDIs e ERP.
 
 certifications:
-  title: Certifications
+  title: Certificados
   list:
   - name: Microsoft AZ-900
     start: 2024
     end: 2024
     organization: Alura
     credentialid: 9376c3ac-08c6-4930-962e-58f75377d0dc
-    credentialurl: https://cursos.alura.com.br/certificate/9376c3ac-08c6-4930-962e-58f75377d0dc?lang
+    credentialurl: cursos.alura.com.br/certificate/9376c3ac-08c6-4930-962e-58f75377d0dc?lang
     credentialname: Alura
 #    details: |
 
@@ -123,7 +123,7 @@ certifications:
     end: 2022
     organization: FIAP
     credentialid: 2459cbe7e347c38669db8a79d8cbd115
-    credentialurl: https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/61745/2459cbe7e347c38669db8a79d8cbd115/certificado.png
+    credentialurl: on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/61745/2459cbe7e347c38669db8a79d8cbd115/certificado.png
     credentialname: FIAP
 #    details: |
 
@@ -159,16 +159,16 @@ skills:
   title: Habilidades
 
   toolset:
-  - name: Ambiente virtual (VMware & Proxmox)
+  - name: Ambiente virtual
     level: 98%
 
-  - name: Sistemas Operacionais (Linux & Windows
+  - name: Sistemas Operacionais
     level: 98%
 
   - name: Cloud Infrastructure
     level: 95%
 
-  - name: Infrastructure as a Code (Terraform)
+  - name: Infrastructure as a Code
     level: 85%
 
   - name: Docker
