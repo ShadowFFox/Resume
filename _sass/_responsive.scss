@@ -4,29 +4,46 @@
     padding: 0;
   }
 
+  .wrapper {
+    display: block;
+    margin: 0;
+    border-radius: 0;
+  }
+
   .sidebar-wrapper {
     position: static;
     width: inherit;
   }
 
-  .wrapper {
-    display: block;
-  }
-
   .main-wrapper {
-    padding: 30px;
+    padding: 30px 24px;
   }
 
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
+  /* On mobile, time tag becomes a block below the title */
+  .main-wrapper .time,
+  .main-wrapper .cert-url {
+    display: inline-block;
+    margin-top: 4px;
+    align-self: auto;
   }
 
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
+  .main-wrapper .upper-row,
+  .main-wrapper .second-upper-row {
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+  }
+
+  .main-wrapper .job-title,
+  .main-wrapper .degree,
+  .main-wrapper .cert-title {
+    flex: 0 0 100%;
+  }
+
+  .main-wrapper .footer .copyright {
+    padding: 14px 24px;
   }
 }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
@@ -35,30 +52,31 @@
 @media (min-width: 992px) {
   .skillset .level-title {
     float: left;
-    width: 30%;
+    width: 34%;
     margin-bottom: 0;
+    line-height: 1.8;
   }
 
   .skillset .level-bar {
-    width: 70%;
+    width: 66%;
     float: left;
     position: relative;
-    top: 1px;
+    top: 7px;
   }
 }
 
 .skillset .level-bar-inner {
   width: auto;
-  -webkit-transition: width 2s ease-in-out;
-  -moz-transition: width 2s ease-in-out;
-  -o-transition: width 2s ease-in-out;
-  transition: width 2s ease-in-out;
+  -webkit-transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
 
-/* Ex-Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices */
 @media (min-width: 1400px) {
 }

@@ -4,178 +4,192 @@
 
 sidebar:
   position: left # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Felipe Martins do Nascimento
-  tagline: System Administrator | DevOps Engineer | Cloud Engineer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Infrastructure Analyst · DevOps · Cloud
+  avatar: profile.png  # Foto: Profile2024.jpeg → processada para profile.png
 
   # Sidebar links
   email: fefisfefe@gmail.com
-  phone: +55 11 9 9540 0371
-  timezone: America/Sao_Paulo # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  phone: +55 11 9 9540-0371
+  timezone: America/Sao_Paulo
   citizenship:
-  website: https://wild.dev.br/ # Include the full website URL, including "http://" or "https://".
+  website: https://wild.dev.br/
   linkedin: felipe-mnascimento
-  #xing: alandoe
   github: ShadowFFox
-  #telegram: # add your nickname without '@' sign
-  #gitlab:
-  #bitbucket:
-  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  #twitter: '@jekyllrb'
-  #stack-overflow: # Number/Username, e.g. 123456/alandoe
-  #codewars:
-  #goodreads: # Number-Username, e.g. 123456-alandoe
-  #mastodon: # Please include your full Mastodon link here.
-  #hackerrank: # Please provide your HackerRank username.
-  #leetcode: # Please provide your LeetCode username.
-  #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
-    title: Linguas
+    title: Idiomas
     info:
     - idiom: Português
-      level: Nativa
+      level: Nativo
 
     - idiom: Inglês
       level: Intermediário
 
-#  interests:
-#    title: Interests
-#    info:
-#    - item: Climbing
-#      link:
-
 career-profile:
-  title: Resumo
+  title: Sobre Mim
   summary: |
-    Administrador de Sistemas, DevOps e Nuvem com sólida experiência
-    em infraestrutura como código (Terraform), virtualização (VMware e Proxmox)
-    e containers (Docker). Atuou na implementação e sustentação de soluções de TI,
-    coordenação de equipes de Network Operation Center e monitoramento de 
-    servidores e aplicações. Profissional versátil, dedicado e comprometido 
-    com a entrega de soluções inovadoras e eficientes.
+    Analista de Infraestrutura com mais de 6 anos de experiência em ambientes
+    corporativos de alta disponibilidade. Especialista em monitoramento de infraestrutura,
+    virtualização e nuvem, com atuação direta na implementação de soluções com
+    **Terraform**, **Docker**, **VMware** e **Proxmox**.
+
+    Passou por todas as camadas operacionais — de suporte técnico a coordenação
+    de NOC — o que proporciona visão completa do ciclo de vida da infraestrutura.
+    Comprometido com automação, observabilidade e entrega contínua de valor.
 
 education:
-  title: Educação
+  title: Formação Acadêmica
   info:
-  - degree: Ciencia da computação
-    university: Universidade Paulista - UNIP
-    time: 2018 - 2021
-    #details: |
-    #  Describe your study here lorem ipsum dolor sit amet, consectetuer
-    #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-    #  sociis natoque penatibus et magnis dis parturient montes, nascetur
-    #  ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-    #  pretium quis, sem.
-    #    - Bullet point
-    #    - Bullet point
-  - degree: Eletricista de Manutenção Eletroeletronica
-    university: SENAI Almirante Tamandare
-    time: 2016 - 2017
+  - degree: Bacharelado em Ciência da Computação
+    university: Universidade Paulista — UNIP
+    time: 2018 — 2022
+
+  - degree: Eletricista de Manutenção Eletroeletrônica
+    university: SENAI Almirante Tamandaré
+    time: 2016 — 2017
 
 experiences:
-  title: Experiencias
+  title: Experiência Profissional
   info:
   - role: Analista de Infraestrutura
-    time: 2023 - Presente
-    company: Tecnocomp Tecnologia e Serviços LTDA
+    time: ago 2023 — Presente
+    company: Tecnocomp Tecnologia e Serviços
     details: |
-      Atuava na implementação e sustentação de soluções em Cloud, com
-      infraestrutura como código (Terraform), containers (Docker) e
-      ambientes virtualizados. Desenvolvendo também a infraestrutura de
-      monitoramento da empresa e de seus clientes.
-  - role: Coordenador de Network Operation Center
-    time: 2022 - 2023
-    company: Tecnocomp Tecnologia e Serviços LTDA
+      Responsável pela implementação e sustentação de infraestrutura em nuvem e on-premise,
+      com foco em automação e observabilidade.
+
+      - Provisão de ambientes cloud com **Terraform** (IaC) e gerenciamento de containers via **Docker**
+      - Administração de ambientes virtualizados em **VMware vCenter** e **Proxmox**
+      - Desenvolvimento e expansão da infraestrutura de monitoramento com **Zabbix** e **Grafana**
+      - Gestão de servidores **Linux** e **Windows Server** em produção
+
+  - role: Coordenador de NOC
+    time: mai 2022 — set 2023
+    company: Tecnocomp Tecnologia e Serviços
     details: |
-      Coordenava a equipe de NOC e gerenciava os sistemas de monitoramento
-  - role: Analista de Network Operation Center
-    time: 2021 - 2022
-    company: Tecnocomp Tecnologia e Serviços LTDA
+      Liderança da equipe de Network Operations Center, garantindo SLAs e disponibilidade
+      dos serviços dos clientes.
+
+      - Coordenação de equipe técnica com foco em resposta a incidentes e melhoria de processos
+      - Gerenciamento e otimização das ferramentas de monitoramento (**Zabbix**, **SolarWinds**, **PRTG**)
+      - Criação de dashboards analíticos no **Grafana** e **PRTG** para visualização operacional
+      - Gestão de chamados e escaladas via **Qualitor**
+
+  - role: Analista de NOC
+    time: jul 2021 — mai 2022
+    company: Tecnocomp Tecnologia e Serviços
     details: |
-      Atuava no monitoramento de servidores, aplicações e infraestrutura 
-      interna e de clientes, atuando no gerenciamento de chamados internos e de terceiros
-  - role: Analista de Suporte Técnico
-    time: 2018 - 2020
-    company: Tecnocomp Tecnologia e Serviços LTDA
+      Monitoramento proativo de links, switches, access points, aplicações e servidores
+      de clientes empresariais.
+
+      - Operação e análise de alertas em **Zabbix**, **SolarWinds** e **PRTG**
+      - Criação e manutenção de dashboards de visibilidade operacional no **Grafana**
+      - Atendimento e escalada de incidentes de infraestrutura
+
+  - role: Analista de Suporte Técnico N1/N2
+    time: set 2018 — set 2020
+    company: Tecnocomp Tecnologia e Serviços
     details: |
-      Prestava suporte a colaboradores de um ambiente hospitalar
-      com sistemas virtualizados em VDIs e ERP.
+      Suporte técnico presencial no Hospital Moriah, ambiente crítico 24/7.
+
+      - Administração de desktops e servidores virtualizados em **VMware vCenter**
+      - Suporte aos sistemas **Contimatic Contábil** e ERP médico **Philips Tasy**
+      - Gestão de chamados N1 e N2 via plataforma **Qualitor**
 
 certifications:
-  title: Certificados
+  title: Certificações & Reconhecimentos
   list:
-  - name: Microsoft AZ-900
+  - name: Microsoft AZ-900 — Azure Fundamentals
     start: 2024
-    end: 2024
-    organization: Alura
+    organization: Alura / Microsoft
     credentialid: 9376c3ac-08c6-4930-962e-58f75377d0dc
     credentialurl: cursos.alura.com.br/certificate/9376c3ac-08c6-4930-962e-58f75377d0dc?lang
-    credentialname: Alura
-#    details: |
+    credentialname: Ver Certificado
 
   - name: Gestão de Infraestrutura de TI
     start: 2022
-    end: 2022
     organization: FIAP
     credentialid: 2459cbe7e347c38669db8a79d8cbd115
     credentialurl: on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/61745/2459cbe7e347c38669db8a79d8cbd115/certificado.png
-    credentialname: FIAP
-#    details: |
+    credentialname: Ver Certificado
 
+  - name: Docker — Criando e Gerenciando Containers
+    start: 2023
+    organization: Alura
+    credentialname: Alura
 
-#projects:
-#  title: Projetos
-#  intro: >
-#    Um 
-#  assignments:
-#  - title: Velocity
-#    link: "#hook"
-#    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - name: Adobe XD — Prototipação de Interfaces
+    start: 2022
+    organization: Alura
+    credentialname: Alura
 
+  - name: Prêmio Mérito Aluno Destaque Bronze
+    start: 2017
+    organization: SENAI "Almirante Tamandaré"
+    credentialname: Reconhecimento Acadêmico
 
-#oss:
-#  title: OSS Contributions
-#  intro: >
-#    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#  contributions:
-#  - title: Tempo
-#    link: "#"
-#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-#
-#  - title: Atom
-#    link: "#"
-#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-#
-#  - title: Delta
-#    link: "#"
-#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+projects:
+  title: Projetos
+  intro: >
+    Projetos pessoais e iniciativas técnicas desenvolvidas como laboratório
+    de aprendizado e experimentação com novas tecnologias.
+  assignments:
+  - title: Home Lab — Proxmox + Self-hosted Stack
+    link: "#"
+    tagline: "Ambiente de laboratório doméstico com Proxmox VE, executando múltiplas VMs e containers LXC para testes de infraestrutura, redes e automação."
+
+  - title: Monitoramento IaC — Zabbix + Grafana via Terraform
+    link: "#"
+    tagline: "Provisionamento automatizado de infraestrutura de monitoramento com Terraform, integrando Zabbix para coleta de métricas e Grafana para visualização em dashboards."
+
+  - title: Pipeline CI/CD com GitHub Actions
+    link: "https://github.com/ShadowFFox"
+    tagline: "Pipeline de deploy automático deste currículo digital Jekyll no GitHub Pages usando GitHub Actions — build, test e publicação contínua."
 
 skills:
   title: Habilidades
 
   toolset:
-  - name: Ambiente virtual
-    level: 98%
-
-  - name: Sistemas Operacionais
-    level: 98%
-
-  - name: Cloud Infrastructure
+  - name: Monitoramento & Observabilidade
     level: 95%
 
-  - name: Infrastructure as a Code
-    level: 85%
+  - name: Virtualização & Containers
+    level: 90%
 
-  - name: Docker
-    level: 85%
+  - name: Infraestrutura & Redes
+    level: 88%
 
-#  - name: Sketch & Photoshop
-#    level: 60%
+  - name: Cloud & IaC (Terraform)
+    level: 82%
+
+  - name: Linux Administration
+    level: 92%
+
+  - name: Scripting & Automação
+    level: 75%
+
+  tags:
+  - Zabbix
+  - Grafana
+  - PRTG
+  - SolarWinds
+  - Docker
+  - Terraform
+  - Ansible
+  - VMware vCenter
+  - Proxmox
+  - Azure (AZ-900)
+  - Linux
+  - Windows Server
+  - Bash / Shell
+  - Git / GitHub
+  - Qualitor
+  - Cisco Networking
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Desenvolvido com <i class="fas fa-heart"></i> por Felipe Martins do Nascimento

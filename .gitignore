@@ -1,9 +1,0 @@
-# Cache
-_site/
-.sass-cache/
-.jekyll-metadata
-.jekyll-cache
-
-# Workspace Settings
-.vscode/
-Resume.code-workspace

@@ -1,0 +1,30 @@
+/* ═══════════════════════════════════════════════
+   Dark Tech Skin — Black & Orange
+   Felipe Martins do Nascimento
+   ═══════════════════════════════════════════════ */
+
+/* Core accent — orange */
+$theme-color: #F97316;
+
+/* Typography */
+$text-color:           #F1F5F9;
+$text-color-secondary: #94A3B8;
+$text-grey:            #64748B;
+
+/* UI chrome */
+$divider:       #2A2A2A;
+$lighter-grey:  #2A2A2A;
+$darker-grey:   #CBD5E1;
+$smoky-white:   #0C0C0C;   /* body background — true black */
+$heart:         #F97316;
+
+/* ── Dark-mode extras ── */
+$sidebar-bg:         #111111;   /* sidebar — near black          */
+$sidebar-bg-inner:   #0A0A0A;   /* deepest black                 */
+$main-bg:            #191919;   /* main content area             */
+$card-bg:            #212121;   /* card/cert background          */
+$profile-bg:         rgba(0, 0, 0, 0.55);
+$sidebar-text:       #F1F5F9;
+$sidebar-text-muted: rgba(148, 163, 184, 0.70);
+$section-title-color: $theme-color;
+$skill-bar-bg:        #2A2A2A;
