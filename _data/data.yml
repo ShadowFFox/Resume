@@ -156,13 +156,13 @@ skills:
 
   toolset:
   - name: Monitoramento & Observabilidade
-    level: 95%
+    level: 88%
 
   - name: Virtualização & Containers
     level: 90%
 
   - name: Infraestrutura & Redes
-    level: 88%
+    level: 90%
 
   - name: Cloud & IaC (Terraform)
     level: 82%
@@ -171,7 +171,7 @@ skills:
     level: 92%
 
   - name: Scripting & Automação
-    level: 75%
+    level: 95%
 
   tags:
   - Zabbix
@@ -192,4 +192,5 @@ skills:
   - Cisco Networking
 
 footer: >
-  Desenvolvido com <i class="fas fa-heart"></i> por Felipe Martins do Nascimento
+  Desenvolvido com Github Pages e Jekyll. Fonte baseada no Github https://github.com/sharu725/online-cv e editado por mim.
+  Contem elementos de design criados com Claude
