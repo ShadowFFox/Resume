@@ -1299,7 +1299,31 @@ if (typeof jQuery === 'undefined') {
     this.type      = type
     this.$element  = $(element)
     this.options   = this.getOptions(options)
-    this.$viewport = this.options.viewport && $($.isFunction(this.options.viewport) ? this.options.viewport.call(this, this.$element) : (this.options.viewport.selector || this.options.viewport))
+
+    var viewport = this.options.viewport
+    if ($.isFunction(viewport)) {
+      viewport = viewport.call(this, this.$element)
+    } else if (viewport && viewport.selector) {
+      viewport = viewport.selector
+    }
+
+    // Only allow safe viewport values to be passed to jQuery:
+    //  - DOM elements or jQuery objects
+    //  - selector strings that do not look like HTML
+    if (viewport && (viewport.nodeType || viewport.jquery)) {
+      this.$viewport = $(viewport)
+    } else if (typeof viewport === 'string') {
+      var trimmedViewport = $.trim(viewport)
+      // Reject strings that look like HTML to avoid XSS
+      if (!/^\s*</.test(trimmedViewport)) {
+        this.$viewport = $(trimmedViewport)
+      } else {
+        this.$viewport = null
+      }
+    } else {
+      this.$viewport = viewport ? $(viewport) : viewport
+    }
+
     this.inState   = { click: false, hover: false, focus: false }
 
     if (this.$element[0] instanceof document.constructor && !this.options.selector) {
