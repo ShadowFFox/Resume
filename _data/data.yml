@@ -78,7 +78,7 @@ experiences:
       - Coordenação de equipe técnica com foco em resposta a incidentes e melhoria de processos
       - Gerenciamento e otimização das ferramentas de monitoramento (**Zabbix**, **SolarWinds**, **PRTG**)
       - Criação de dashboards analíticos no **Grafana** e **PRTG** para visualização operacional
-      - Gestão de chamados e escaladas via **Qualitor**
+      - Gestão de chamados, escalonamento e relatórios via **GLPI**
 
   - role: Analista de NOC
     time: jul 2021 — mai 2022
@@ -90,6 +90,7 @@ experiences:
       - Operação e análise de alertas em **Zabbix**, **SolarWinds** e **PRTG**
       - Criação e manutenção de dashboards de visibilidade operacional no **Grafana**
       - Atendimento e escalada de incidentes de infraestrutura
+      - Gestão de chamados sobre incidentes via **GLPI**
 
   - role: Analista de Suporte Técnico N1/N2
     time: set 2018 — set 2020
@@ -98,8 +99,8 @@ experiences:
       Suporte técnico presencial no Hospital Moriah, ambiente crítico 24/7.
 
       - Administração de desktops e servidores virtualizados em **VMware vCenter**
-      - Suporte aos sistemas **Contimatic Contábil** e ERP médico **Philips Tasy**
-      - Gestão de chamados N1 e N2 via plataforma **Qualitor**
+      - Suporte aos sistemas de gestão médica.
+      - Gestão de chamados N1 e N2 via **Qualitor**
 
 certifications:
   title: Certificações & Reconhecimentos
@@ -162,7 +163,7 @@ skills:
     level: 90%
 
   - name: Infraestrutura & Redes
-    level: 90%
+    level: 95%
 
   - name: Cloud & IaC (Terraform)
     level: 82%
@@ -189,7 +190,7 @@ skills:
   - Bash / Shell
   - Git / GitHub
   - Qualitor
-  - Cisco Networking
+  - Huawei Networking
 
 footer: >
   Desenvolvido com Github Pages e Jekyll. Fonte baseada no Github https://github.com/sharu725/online-cv e editado por mim.
